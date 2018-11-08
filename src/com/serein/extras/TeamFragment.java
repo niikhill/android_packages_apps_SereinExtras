@@ -62,7 +62,7 @@ public class TeamFragment extends DialogFragment {
                 @Override
                 public void onClick(View v) {
                     try {
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("t.me/IamJoker03"));
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/IamJoker03"));
                         startActivity(intent);
                     } catch (ActivityNotFoundException e) {
                         e.printStackTrace();
@@ -80,7 +80,7 @@ public class TeamFragment extends DialogFragment {
                 @Override
                 public void onClick(View v) {
                     try {
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("t.me/ovenoboyo"));
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/ovenoboyo"));
                         startActivity(intent);
                     } catch (ActivityNotFoundException e) {
                         e.printStackTrace();
@@ -98,7 +98,7 @@ public class TeamFragment extends DialogFragment {
                 @Override
                 public void onClick(View v) {
                     try {
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("t.me/C0MSTOCK"));
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/C0MSTOCK"));
                         startActivity(intent);
                     } catch (ActivityNotFoundException e) {
                         e.printStackTrace();

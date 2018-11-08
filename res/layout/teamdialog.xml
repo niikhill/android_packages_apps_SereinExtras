@@ -83,11 +83,11 @@
                                 android:id="@+id/myron_text"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Myron Viegas"
+                                android:text="Myron"
                                 android:textStyle="bold"
                                 android:layout_below="@+id/generic_person"
                                 android:layout_centerHorizontal="true"
-                                android:layout_marginTop="3dp" />
+                                android:layout_marginTop="4dp" />
 
                         </RelativeLayout>
 
@@ -116,11 +116,11 @@
                                 android:id="@+id/oveno_text"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Sahil Gupte"
+                                android:text="Oveno"
                                 android:textStyle="bold"
                                 android:layout_below="@+id/generic_person"
                                 android:layout_centerHorizontal="true"
-                                android:layout_marginTop="3dp" />
+                                android:layout_marginTop="4dp" />
 
                         </RelativeLayout>
 
@@ -153,7 +153,7 @@
                                 android:textStyle="bold"
                                 android:layout_below="@+id/generic_person"
                                 android:layout_centerHorizontal="true"
-                                android:layout_marginTop="3dp" />
+                                android:layout_marginTop="4dp" />
 
                         </RelativeLayout>
 
