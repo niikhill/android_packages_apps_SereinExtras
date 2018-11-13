@@ -36,7 +36,7 @@
             android:id="@+id/generic_person"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/generic_person"
+            android:src="@drawable/amulya"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="4dp"
             app:civ_border="true"
