@@ -159,6 +159,105 @@
 
                     </FrameLayout>
 
+                    <FrameLayout
+                        android:id="@+id/amulya"
+                        android:layout_width="80dp"
+                        android:layout_height="75dp">
+
+                        <RelativeLayout
+                            android:layout_width="80dp"
+                            android:layout_height="75dp">
+
+                            <com.serein.extras.helpers.CircularImageView
+                                android:id="@+id/generic_person"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="15dp"
+                                android:src="@drawable/generic_person"
+                                app:civ_border="true"
+                                app:civ_border_width="3dp" />
+
+                            <TextView
+                                android:id="@+id/amulya_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Amulya"
+                                android:textStyle="bold"
+                                android:layout_below="@+id/generic_person"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="4dp" />
+
+                        </RelativeLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/batman"
+                        android:layout_width="80dp"
+                        android:layout_height="75dp">
+
+                        <RelativeLayout
+                            android:layout_width="80dp"
+                            android:layout_height="75dp">
+
+                            <com.serein.extras.helpers.CircularImageView
+                                android:id="@+id/generic_person"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="15dp"
+                                android:src="@drawable/generic_person"
+                                app:civ_border="true"
+                                app:civ_border_width="3dp" />
+
+                            <TextView
+                                android:id="@+id/batman_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Parth"
+                                android:textStyle="bold"
+                                android:layout_below="@+id/generic_person"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="4dp" />
+
+                        </RelativeLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/dark"
+                        android:layout_width="80dp"
+                        android:layout_height="75dp">
+
+                        <RelativeLayout
+                            android:layout_width="80dp"
+                            android:layout_height="75dp">
+
+                            <com.serein.extras.helpers.CircularImageView
+                                android:id="@+id/generic_person"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="15dp"
+                                android:src="@drawable/generic_person"
+                                app:civ_border="true"
+                                app:civ_border_width="3dp" />
+
+                            <TextView
+                                android:id="@+id/dark_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ricky"
+                                android:textStyle="bold"
+                                android:layout_below="@+id/generic_person"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="4dp" />
+
+                        </RelativeLayout>
+
+                    </FrameLayout>
+
                 </com.serein.extras.helpers.RowLayout>
 
             </LinearLayout>

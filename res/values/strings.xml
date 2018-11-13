@@ -24,6 +24,12 @@
     <string name="oveno_desc">Source Developer</string>
     <string name="rahif">Rahif</string>
     <string name="rahif_desc">Source Developer</string>
+    <string name="amulya">Amulya Bhardwaj</string>
+    <string name="amulya_desc">Source Developer</string>
+    <string name="batman">Parth</string>
+    <string name="batman_desc">PR and Networking</string>
+    <string name="dark">Ricky</string>
+    <string name="dark_desc">PR and Resource Manager</string>
 
 
     <!-- Bottom navigation -->
