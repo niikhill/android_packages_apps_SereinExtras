@@ -28,4 +28,11 @@
                  android:targetClass="org.omnirom.omnistyle.BrowseThemesActivity" />
     </Preference>
 
+    <Preference
+         android:key="powermenu"
+         android:title="@string/powermenu_title"
+         android:icon="@drawable/ic_powermenu"
+         android:summary="@string/powermenu_summary"
+         android:fragment="com.serein.extras.fragments.PowerMenu" />
+
 </PreferenceScreen>
