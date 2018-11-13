@@ -17,7 +17,20 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- The Team -->
-    <string name="dialog_team_title">The Team</string>
+    <string name="dialog_team_title">The Heart of Serein</string>
+    <string name="myron">Myron Viegas</string>
+    <string name="myron_desc">Source Developer</string>
+    <string name="oveno">Sahil Gupte</string>
+    <string name="oveno_desc">Source Developer</string>
+    <string name="rahif">Rahif</string>
+    <string name="rahif_desc">Source Developer</string>
+    <string name="amulya">Amulya Bhardwaj</string>
+    <string name="amulya_desc">Source Developer</string>
+    <string name="batman">Parth</string>
+    <string name="batman_desc">PR and Networking</string>
+    <string name="dark">Ricky</string>
+    <string name="dark_desc">PR and Resource Manager</string>
+
 
     <!-- Bottom navigation -->
     <string name="bottom_nav_system_title">System</string>

@@ -61,14 +61,21 @@ public class TeamFragment extends DialogFragment {
             myron.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    try {
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/IamJoker03"));
-                        startActivity(intent);
-                    } catch (ActivityNotFoundException e) {
-                        e.printStackTrace();
+                    AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
+                    View view1 = null;
+                    LayoutInflater inflater1 = (LayoutInflater) getContext()
+                            .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+                    if (inflater != null) {
+                        view1 = inflater1.inflate(R.layout.teaminfo_myron, nullParent);
                     }
+
+                    alert.setView(view1);
+                    alert.setCancelable(true);
+                    AlertDialog alertdialog = alert.create();
+                    alertdialog.show();
                 }
-            });
+           });
         }
 
         FrameLayout oveno = null;
@@ -79,14 +86,21 @@ public class TeamFragment extends DialogFragment {
             oveno.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    try {
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/ovenoboyo"));
-                        startActivity(intent);
-                    } catch (ActivityNotFoundException e) {
-                        e.printStackTrace();
+                    AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
+                    View view1 = null;
+                    LayoutInflater inflater1 = (LayoutInflater) getContext()
+                            .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+                    if (inflater != null) {
+                        view1 = inflater1.inflate(R.layout.teaminfo_oveno, nullParent);
                     }
+
+                    alert.setView(view1);
+                    alert.setCancelable(true);
+                    AlertDialog alertdialog = alert.create();
+                    alertdialog.show();
                 }
-            });
+           });
         }
 
         FrameLayout rahif = null;
@@ -97,14 +111,96 @@ public class TeamFragment extends DialogFragment {
             rahif.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    try {
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/C0MSTOCK"));
-                        startActivity(intent);
-                    } catch (ActivityNotFoundException e) {
-                        e.printStackTrace();
+                    AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
+                    View view1 = null;
+                    LayoutInflater inflater1 = (LayoutInflater) getContext()
+                            .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+                    if (inflater != null) {
+                        view1 = inflater1.inflate(R.layout.teaminfo_rahif, nullParent);
                     }
+
+                    alert.setView(view1);
+                    alert.setCancelable(true);
+                    AlertDialog alertdialog = alert.create();
+                    alertdialog.show();
                 }
-            });
+           });
+        }
+
+        FrameLayout amulya = null;
+        if (view != null) {
+            amulya = view.findViewById(R.id.amulya);
+        }
+        if (amulya != null) {
+            amulya.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
+                    View view1 = null;
+                    LayoutInflater inflater1 = (LayoutInflater) getContext()
+                            .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+                    if (inflater != null) {
+                        view1 = inflater1.inflate(R.layout.teaminfo_amulya, nullParent);
+                    }
+
+                    alert.setView(view1);
+                    alert.setCancelable(true);
+                    AlertDialog alertdialog = alert.create();
+                    alertdialog.show();
+                }
+           });
+        }
+
+        FrameLayout batman = null;
+        if (view != null) {
+            batman = view.findViewById(R.id.batman);
+        }
+        if (batman != null) {
+            batman.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
+                    View view1 = null;
+                    LayoutInflater inflater1 = (LayoutInflater) getContext()
+                            .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+                    if (inflater != null) {
+                        view1 = inflater1.inflate(R.layout.teaminfo_batman, nullParent);
+                    }
+
+                    alert.setView(view1);
+                    alert.setCancelable(true);
+                    AlertDialog alertdialog = alert.create();
+                    alertdialog.show();
+                }
+           });
+        }
+
+        FrameLayout dark = null;
+        if (view != null) {
+            dark = view.findViewById(R.id.dark);
+        }
+        if (dark != null) {
+            dark.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
+                    View view1 = null;
+                    LayoutInflater inflater1 = (LayoutInflater) getContext()
+                            .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+                    if (inflater != null) {
+                        view1 = inflater1.inflate(R.layout.teaminfo_dark, nullParent);
+                    }
+
+                    alert.setView(view1);
+                    alert.setCancelable(true);
+                    AlertDialog alertdialog = alert.create();
+                    alertdialog.show();
+                }
+           });
         }
         dialog.show();
 
