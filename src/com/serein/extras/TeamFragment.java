@@ -202,6 +202,31 @@ public class TeamFragment extends DialogFragment {
                 }
            });
         }
+
+        FrameLayout nikhil = null;
+        if (view != null) {
+            nikhil = view.findViewById(R.id.nikhil);
+        }
+        if (nikhil != null) {
+            nikhil.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
+                    View view1 = null;
+                    LayoutInflater inflater1 = (LayoutInflater) getContext()
+                            .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+                    if (inflater != null) {
+                        view1 = inflater1.inflate(R.layout.teaminfo_nikhil, nullParent);
+                    }
+
+                    alert.setView(view1);
+                    alert.setCancelable(true);
+                    AlertDialog alertdialog = alert.create();
+                    alertdialog.show();
+                }
+           });
+        }
         dialog.show();
 
         return dialog;
