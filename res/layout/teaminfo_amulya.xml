@@ -27,13 +27,14 @@
         android:textStyle="bold" />
 
     <LinearLayout
+        android:id="@+id/amulya_img"
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center" >
 
         <com.serein.extras.helpers.CircularImageView
-            android:id="@+id/generic_person"
+            android:id="@+id/amulya_cimg"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/amulya"

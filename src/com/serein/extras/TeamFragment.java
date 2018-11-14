@@ -28,6 +28,7 @@ import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.FrameLayout;
 
 public class TeamFragment extends DialogFragment {
@@ -74,6 +75,12 @@ public class TeamFragment extends DialogFragment {
                     alert.setCancelable(true);
                     AlertDialog alertdialog = alert.create();
                     alertdialog.show();
+
+                    LinearLayout myron_img = null;
+                    if (view1 != null) {
+                          myron_img = view1.findViewById(R.id.myron_img);
+                         setTeamMember("xxjoker03xx", myron_img);
+                    }
                 }
            });
         }
@@ -99,6 +106,12 @@ public class TeamFragment extends DialogFragment {
                     alert.setCancelable(true);
                     AlertDialog alertdialog = alert.create();
                     alertdialog.show();
+
+                    LinearLayout oveno_img = null;
+                    if (view1 != null) {
+                        oveno_img = view1.findViewById(R.id.oveno_img);
+                        setTeamMember("ovenoboyo", oveno_img);
+                    }
                 }
            });
         }
@@ -124,6 +137,12 @@ public class TeamFragment extends DialogFragment {
                     alert.setCancelable(true);
                     AlertDialog alertdialog = alert.create();
                     alertdialog.show();
+
+                    LinearLayout rahif_img = null;
+                    if (view1 != null) {
+                        rahif_img = view1.findViewById(R.id.rahif_img);
+                        setTeamMember("C0MSTOCK", rahif_img);
+                    }
                 }
            });
         }
@@ -149,6 +168,12 @@ public class TeamFragment extends DialogFragment {
                     alert.setCancelable(true);
                     AlertDialog alertdialog = alert.create();
                     alertdialog.show();
+
+                    LinearLayout amulya_img = null;
+                    if (view1 != null) {
+                        amulya_img = view1.findViewById(R.id.amulya_img);
+                        setTeamMember("AmulyaX", amulya_img);
+                    }
                 }
            });
         }
@@ -174,6 +199,12 @@ public class TeamFragment extends DialogFragment {
                     alert.setCancelable(true);
                     AlertDialog alertdialog = alert.create();
                     alertdialog.show();
+
+                    LinearLayout batman_img = null;
+                    if (view1 != null) {
+                        batman_img = view1.findViewById(R.id.batman_img);
+                        setTeamMember("Void_Aspect", batman_img);
+                    }
                 }
            });
         }
@@ -199,6 +230,12 @@ public class TeamFragment extends DialogFragment {
                     alert.setCancelable(true);
                     AlertDialog alertdialog = alert.create();
                     alertdialog.show();
+
+                    LinearLayout dark_img = null;
+                    if (view1 != null) {
+                        dark_img = view1.findViewById(R.id.dark_img);
+                        setTeamMember("f_rost", dark_img);
+                    }
                 }
            });
         }
@@ -224,12 +261,35 @@ public class TeamFragment extends DialogFragment {
                     alert.setCancelable(true);
                     AlertDialog alertdialog = alert.create();
                     alertdialog.show();
+
+                    LinearLayout nikhil_img = null;
+                    if (view1 != null) {
+                        nikhil_img = view1.findViewById(R.id.nikhil_img);
+                        setTeamMember("im_nikhil", nikhil_img);
+                    }
                 }
            });
         }
         dialog.show();
 
         return dialog;
+    }
+
+    private void setTeamMember(final String tg, final LinearLayout name) {
+        if (name != null) {
+            name.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    try {
+                        Intent intent = new Intent(Intent.ACTION_VIEW,
+                                Uri.parse("https://t.me/" + tg));
+                        startActivity(intent);
+                    } catch (ActivityNotFoundException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
+        }
     }
 
     @Override
