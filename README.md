@@ -1,4 +1,4 @@
-Dirty Tweaks
+Serein Extras
 ==============
 
 A flexible, easy to use, all in one tweaks app for AOSP!
