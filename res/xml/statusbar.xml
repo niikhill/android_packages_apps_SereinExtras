@@ -46,7 +46,7 @@
 
     <com.serein.extras.preferences.SystemSettingSwitchPreference
          android:key="volte_icon"
-         android:icon="@drawable/ic_volte
+         android:icon="@drawable/ic_volte"
          android:title="@string/volte_icon_title"
          android:summary="@string/volte_icon_summary"
          android:defaultValue="false"/>
