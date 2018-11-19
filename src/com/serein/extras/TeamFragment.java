@@ -116,37 +116,6 @@ public class TeamFragment extends DialogFragment {
            });
         }
 
-        FrameLayout rahif = null;
-        if (view != null) {
-           rahif = view.findViewById(R.id.rahif);
-        }
-        if (rahif != null) {
-            rahif.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
-                    View view1 = null;
-                    LayoutInflater inflater1 = (LayoutInflater) getContext()
-                            .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
-                    if (inflater != null) {
-                        view1 = inflater1.inflate(R.layout.teaminfo_rahif, nullParent);
-                    }
-
-                    alert.setView(view1);
-                    alert.setCancelable(true);
-                    AlertDialog alertdialog = alert.create();
-                    alertdialog.show();
-
-                    LinearLayout rahif_img = null;
-                    if (view1 != null) {
-                        rahif_img = view1.findViewById(R.id.rahif_img);
-                        setTeamMember("C0MSTOCK", rahif_img);
-                    }
-                }
-           });
-        }
-
         FrameLayout amulya = null;
         if (view != null) {
             amulya = view.findViewById(R.id.amulya);

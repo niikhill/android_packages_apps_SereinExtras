@@ -58,7 +58,34 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
                     android:horizontalSpacing="10dp"
-                    android:verticalSpacing="10dp">
+                    android:verticalSpacing="10dp"> 
+               <FrameLayout
+                        android:id="@+id/nikhil"
+                        android:layout_width="80dp"
+                        android:layout_height="75dp">
+                         <RelativeLayout
+                            android:layout_width="80dp"
+                            android:layout_height="75dp">
+                             <com.serein.extras.helpers.CircularImageView
+                                android:id="@+id/generic_person"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="15dp"
+                                android:src="@drawable/nikhil"
+                                app:civ_border="true"
+                                app:civ_border_width="3dp" />
+                             <TextView
+                                android:id="@+id/dark_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nikhil"
+                                android:textStyle="bold"
+                                android:layout_below="@+id/generic_person"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="4dp" />
+                         </RelativeLayout>
+                     </FrameLayout>
 
                     <FrameLayout
                         android:id="@+id/myron"
@@ -94,7 +121,7 @@
 
                     </FrameLayout>
 
-                    <FrameLayout
+		     <FrameLayout
                         android:id="@+id/oveno"
                         android:layout_width="80dp"
                         android:layout_height="75dp">
@@ -128,40 +155,7 @@
 
                     </FrameLayout>
 
-                    <FrameLayout
-                        android:id="@+id/rahif"
-                        android:layout_width="80dp"
-                        android:layout_height="75dp">
-
-                        <RelativeLayout
-                            android:layout_width="80dp"
-                            android:layout_height="75dp">
-
-                            <com.serein.extras.helpers.CircularImageView
-                                android:id="@+id/generic_person"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:src="@drawable/rahif"
-                                app:civ_border_color="@color/team_dialog_circle_border_color"
-                                app:civ_border="true"
-                                app:civ_border_width="3dp" />
-
-                            <TextView
-                                android:id="@+id/rahif_text"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Rahif"
-                                android:textStyle="bold"
-                                android:layout_below="@+id/generic_person"
-                                android:layout_centerHorizontal="true"
-                                android:layout_marginTop="4dp" />
-
-                        </RelativeLayout>
-
-                    </FrameLayout>
-
+                
                     <FrameLayout
                         android:id="@+id/amulya"
                         android:layout_width="80dp"
@@ -255,40 +249,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Ricky"
-                                android:textStyle="bold"
-                                android:layout_below="@+id/generic_person"
-                                android:layout_centerHorizontal="true"
-                                android:layout_marginTop="4dp" />
-
-                        </RelativeLayout>
-
-                    </FrameLayout>
-
-                    <FrameLayout
-                        android:id="@+id/nikhil"
-                        android:layout_width="80dp"
-                        android:layout_height="75dp">
-
-                        <RelativeLayout
-                            android:layout_width="80dp"
-                            android:layout_height="75dp">
-
-                            <com.serein.extras.helpers.CircularImageView
-                                android:id="@+id/generic_person"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:src="@drawable/nikhil"
-                                app:civ_border_color="@color/team_dialog_circle_border_color"
-                                app:civ_border="true"
-                                app:civ_border_width="3dp" />
-
-                            <TextView
-                                android:id="@+id/dark_text"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Nikhil"
                                 android:textStyle="bold"
                                 android:layout_below="@+id/generic_person"
                                 android:layout_centerHorizontal="true"

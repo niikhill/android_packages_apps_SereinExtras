@@ -21,17 +21,15 @@
     <string name="myron">Myron Viegas</string>
     <string name="myron_desc">Lead Developer</string>
     <string name="oveno">Sahil Gupte</string>
-    <string name="oveno_desc">Source Developer</string>
-    <string name="rahif">Rahif</string>
-    <string name="rahif_desc">Source Developer</string>
+    <string name="oveno_desc">Lead Developer</string>
     <string name="amulya">Amulya Bhardwaj</string>
-    <string name="amulya_desc">Source Developer and Networking</string>
+    <string name="amulya_desc">CoLead and Networking</string>
     <string name="batman">Parth Purvesh</string>
     <string name="batman_desc">PR, Networking and SourceForge</string>
     <string name="dark">Ricky</string>
     <string name="dark_desc">PR and Resource Manager</string>
     <string name="nikhil">Nikhil Chauhan</string>
-    <string name="nikhil_desc">Source Developer, App Developer and Networking</string>
+    <string name="nikhil_desc">Lead Developer, App Developer and Networking</string>
 
 
     <!-- Bottom navigation -->
