@@ -39,12 +39,14 @@
 
     <com.serein.extras.preferences.SystemSettingSwitchPreference
          android:key="roaming_indicator_icon"
+         android:icon="@drawable/ic_roaming_indicator"
          android:title="@string/roaming_indicator_icon_title"
          android:summary="@string/roaming_indicator_icon_summary"
          android:defaultValue="true"/>
 
     <com.serein.extras.preferences.SystemSettingSwitchPreference
          android:key="volte_icon"
+         android:icon="@drawable/ic_volte
          android:title="@string/volte_icon_title"
          android:summary="@string/volte_icon_summary"
          android:defaultValue="false"/>
