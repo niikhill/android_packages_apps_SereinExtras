@@ -37,6 +37,8 @@
          android:summary="@string/traffic_summary"
          android:fragment="com.serein.extras.fragments.NetworkTraffic" />
 
+    <PreferenceCategory
+         android:title="@string/statusbar_other_icon"
     <com.serein.extras.preferences.SystemSettingSwitchPreference
          android:key="roaming_indicator_icon"
          android:icon="@drawable/ic_roaming_indicator"
@@ -50,5 +52,6 @@
          android:title="@string/volte_icon_title"
          android:summary="@string/volte_icon_summary"
          android:defaultValue="false"/>
+     </PreferenceCategory>
 
 </PreferenceScreen>
