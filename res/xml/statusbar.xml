@@ -38,7 +38,8 @@
          android:fragment="com.serein.extras.fragments.NetworkTraffic" />
 
     <PreferenceCategory
-         android:title="@string/statusbar_other_icon"
+         android:title="@string/statusbar_other_icon">
+
     <com.serein.extras.preferences.SystemSettingSwitchPreference
          android:key="roaming_indicator_icon"
          android:icon="@drawable/ic_roaming_indicator"

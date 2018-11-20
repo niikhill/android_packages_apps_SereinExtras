@@ -162,7 +162,7 @@
     <string name="clock_date_string_edittext_summary">Enter string</string>
 
     <!-- Other Strings -->
-    <string name="statusbar_other_icon">Statusbar Icon's</string>
+    <string name="statusbar_other_icon">Statusbar Icons</string>
  
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Roaming indicator</string>

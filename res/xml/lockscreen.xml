@@ -16,13 +16,11 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory
          <com.serein.extras.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:icon="@drawable/ic_ls_media"
             android:title="@string/media_art_title"
             android:summary="@string/media_art_summary"
             android:defaultValue="true" />
-     </PreferenceCategory>
 
 </PreferenceScreen>
