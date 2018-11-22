@@ -34,12 +34,12 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class Navigation extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
+public class Actions extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.navigation);
+        addPreferencesFromResource(R.xml.actions);
     }
 
     @Override

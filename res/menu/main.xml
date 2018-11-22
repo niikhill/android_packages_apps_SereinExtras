@@ -37,8 +37,8 @@
 
     <item
         android:id="@+id/navigation"
-        android:icon="@drawable/bottomnav_navigation"
-        android:title="@string/bottom_nav_navigation_title"
+        android:icon="@drawable/bottomnav_actions"
+        android:title="@string/bottom_nav_actions_title"
         app:showAsAction="ifRoom|withText"/>
 
     <item

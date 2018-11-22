@@ -39,7 +39,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.serein.extras.navigation.BottomNavigationViewCustom;
 import com.serein.extras.tabs.Lockscreen;
 import com.serein.extras.tabs.Multitasking;
-import com.serein.extras.tabs.Navigation;
+import com.serein.extras.tabs.Actions;
 import com.serein.extras.tabs.Statusbar;
 import com.serein.extras.tabs.System;
 
@@ -126,7 +126,7 @@ public class SereinExtras extends SettingsPreferenceFragment {
             frags[0] = new System();
             frags[1] = new Lockscreen();
             frags[2] = new Statusbar();
-            frags[3] = new Navigation();
+            frags[3] = new Actions();
             frags[4] = new Multitasking();
         }
 
@@ -152,7 +152,7 @@ public class SereinExtras extends SettingsPreferenceFragment {
                 getString(R.string.bottom_nav_system_title),
                 getString(R.string.bottom_nav_lockscreen_title),
                 getString(R.string.bottom_nav_statusbar_title),
-                getString(R.string.bottom_nav_navigation_title),
+                getString(R.string.bottom_nav_actions_title),
                 getString(R.string.bottom_nav_multitasking_title)};
 
         return titleString;
