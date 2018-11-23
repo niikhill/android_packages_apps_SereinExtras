@@ -16,4 +16,11 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <com.serein.extras.preferences.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:icon="@drawable/ic_vol_key"
+        android:title="@string/volume_button_music_control_title"
+        android:summary="@string/volume_button_music_control_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
