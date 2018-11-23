@@ -23,4 +23,10 @@
         android:summary="@string/volume_button_music_control_summary"
         android:defaultValue="false" />
 
+    <com.serein.extras.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_lockscreen"
+        android:icon="@drawable/ic_d2sl"
+        android:title="@string/double_tap_sleep_lockscreen"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
