@@ -15,7 +15,11 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+ <Preference
+        android:key="gesture_settings"
+        android:title="@string/gesture_settings_title"
+        android:summary="@string/gesture_settings_summary"
+        android:fragment="com.serein.extras.fragments.OmniGestureSettings" />
     <com.serein.extras.preferences.SystemSettingSwitchPreference
         android:key="volume_button_music_control"
         android:icon="@drawable/ic_vol_key"

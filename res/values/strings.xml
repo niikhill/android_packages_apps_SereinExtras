@@ -181,4 +181,9 @@
     <!-- Double Tap To Sleep on Lockscreen -->
     <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string> 
 
+<!-- Navigation gestures -->
+    <string name="gesture_settings_title">Navigation gestures</string>
+    <string name="gesture_settings_summary">Use bottom swipe up gestures for navigation</string>
+    <string name="use_bottom_gesture_title">Enable gestures</string>
+    <string name="gesture_settings_info">Navigation bar must be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLast app\n- Short swipe up and hold in the center</string>
 </resources>
